@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Registration Form</title>
+        <style>
+            *{
+                margin:0px;
+                padding:0px;
+            }
+           img{
+               
+               background-repeat:no-repeat;
+               background-position:left top;
+               height:120px;
+               width:190px;
+           }
+           .text{
+               float:right;
+               margin-right:80px;
+               font-size:30px;
+               margin-top:19px;
+               color:darkslateblue;
+               text-decoration:underline;
+           }
+           ul{
+               overflow:hidden;
+               background-color:#484848;
+               height:44px;
+           }
+           li{
+               display:block;
+           }
+           li a{
+               float:left;
+               text-decoration:none;
+               padding:12px 16px;
+               
+               color:white;
+           }
+           li a:hover{
+               background-color:black;
+           }
+        
+           
+         
+        </style>
+        <script >
+            function display() {
+            DispWin = window.open('details.html','_parent')
+            }
+        </script>
+    </head>
+    <body>
+       <a href=" https://www.iiit.ac.in/"><img src="iith.png"></a>
+       <a href="https://serc.iiit.ac.in/rdip"><h2 class="text">RDIP</h2></a><br>
+       <ul>
+           <li><a href="homepage.html">Home</a></li>
+           <li><a href="registration.html">Registration Form</a></li>
+       </ul><br>
+       <form name="form1">
+        <label>First Name   :<input type="text" name="fname"></label><br><br>
+        <p>E-mail:   <input TYPE="email" NAME="mail"></p><br><br>
+        <label>Phone No:  <input type="number" name="phno"></label><br><br>
+        <p>Gender:
+        <label><input type="radio" name="gender" value="male">Male</label>
+        <label><input type ="radio" name="gender" value="female">Female</label>
+        <label><input type="radio" name="gender" value="others">others</label>
+        </p><br><br>
+
+        <p>Reason for RDIP:
+        <label><input type="radio" name="reason" value="html">HTML</label>
+        <label><input type ="radio" name="reason" value="css">CSS</label>
+        <label><input type="radio" name="reason" value="javascript">JavaScript</label>
+        </p><br><br>
+
+        <p>College: <input TYPE="text" NAME="College"></p><br><br>
+        <p><label><input type="checkbox" ></label> I declare the above details given by me are true.</p><br><br>
+
+        <p><input TYPE="BUTTON" VALUE="Submit" onClick="display();"><input TYPE="BUTTON" VALUE="Reset"></p>
+       
+        </form>
+     </body>
+   
+</html>
