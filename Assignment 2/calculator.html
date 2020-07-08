@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator</title> 
+        <link rel="stylesheet" href="calculator.css"/>
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <h2>Calculator</h2>
+        <form name="Calculator">
+        <input type="text" name="input" id="input"/>
+        <br>
+        <input type="button" value=" 1 " onclick="document.getElementById('input').value += '1'" />
+        <input type="button" value=" 2 " onclick="document.getElementById('input').value += '2'" />
+        <input type="button" value=" 3 " onclick="document.getElementById('input').value += '3'" />
+        <input type="reset" value="clear"  />
+        <br>
+        <input type="button" value=" 4 " onclick="document.getElementById('input').value += '4'" />
+        <input type="button" value=" 5 " onclick="document.getElementById('input').value += '5'" />
+        <input type="button" value=" 6 " onclick="document.getElementById('input').value += '6'" />
+        <input type="button" value=" x " onclick="document.getElementById('input').value=multiply()" />
+        
+        <br>
+        <input type="button" value=" 7 " onclick="document.getElementById('input').value += '7'" />
+        <input type="button" value=" 8 " onclick="document.getElementById('input').value += '8'" />
+        <input type="button" value=" 9 " onclick="document.getElementById('input').value += '9'" />
+        <input type="button" value=" + " onclick="document.getElementById('input').value=addition()" />
+        <br>
+
+        <input type="button" value=" -  " onclick="document.getElementById('input').value=subtraction()" />
+        <input type="button" value=" 0 " onclick="document.getElementById('input').value += '0'" />
+        <input type="button" value=" . " onclick="document.getElementById('input').value=decimal()" />
+        <input type="button" value="abs" onclick="document.getElementById('input').value=absolute()" />
+        <br>
+        <input type="button" value=" % " onclick="document.getElementById('input').value=percent()" />
+        <input type="button" value=" sqroot " onclick="document.getElementById('input').value=sqroot()" />
+        <input type="button" value=" / " onclick="document.getElementById('input').value=division()" />
+        <input type="button" value=" = " onclick="document.getElementById('input').value=eq()" />
+        
+        </form>
+    </body>
+</html>

@@ -1,0 +1,24 @@
+body{
+    background-color: #ece488;
+    font-weight: 300;
+    width: 30%;
+    overflow: hidden;
+
+}
+h2{
+    text-align: center;
+}
+form{
+    margin-top: 10%;
+    width: 400%;
+    margin-left: 10%;
+}
+input{
+    width: 5%;
+    padding: 0.5%;
+    font-size: large;
+    font-weight: 600;
+}
+#input{
+    width:19.5%;
+}

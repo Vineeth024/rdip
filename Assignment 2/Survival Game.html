@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            WHO SURVIVES??
+        </title>
+        <link rel="stylesheet" href="Survival Game.css"/>
+        <script src="script.js"></script>
+        <h2>WHO WILL SURVIVE?<sub>-THE GAME</sub></h2>
+    </head>
+    <body>
+        <h5>Enter two numbers as Objects and see who SURVIVES</h5>
+        <label>OBJECT1</label>
+        <input type="text" id="obj1"/>
+        <br><br>
+        <label>OBJECT2</label>
+        <input type="text" id="obj2"/>
+        <br><br>
+        <button value="Generate Random Numbers" onclick="generateRandomNumbers(0,1000)">Generate Random Numbers</button>
+        <button value="Check Survivor" onclick="checkSurvivor(obj1,obj2);">Check Survivor</button>
+    </body>
+</html>

@@ -1,0 +1,23 @@
+body{
+    background-color: #659dbd;
+}
+h2{
+    text-align: center;
+}
+form{
+    align-items: center;
+    text-align: center;
+}
+label{
+    color: antiquewhite;
+}
+button{
+    background-color:#8d8741 ;
+    text-align: center;
+    height: 43px;
+    width: fit-content;
+    color : white;
+}
+button:hover{
+    background-color:#000000;
+}

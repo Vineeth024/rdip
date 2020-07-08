@@ -1,0 +1,29 @@
+body{
+    background-color: #659dbd;
+}
+button{
+    background-color:#8d8741 ;
+    text-align: center;
+    height: 40px;
+    width: fit-content;
+    color : white;
+}
+button:hover{
+    background-color:#000000;
+}
+label,input{
+    font-size: larger;
+    font-weight: 500;
+    margin:2% 3%;
+}
+.palindromeForm{
+    display: inline-block;
+    margin-left: 10%;
+    margin-top: 15%;
+}
+.anagramForm{
+    display: inline-block;
+    float: right;
+    margin-right: 10%;
+    margin-top: 15%;
+}
